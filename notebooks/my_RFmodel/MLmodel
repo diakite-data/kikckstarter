@@ -1,0 +1,10 @@
+flavors:
+  python_function:
+    data: sparkml
+    env: conda.yaml
+    loader_module: mlflow.spark
+    python_version: 3.6.8
+  spark:
+    model_data: sparkml
+    pyspark_version: 2.4.5
+utc_time_created: '2020-03-05 15:20:46.407958'
